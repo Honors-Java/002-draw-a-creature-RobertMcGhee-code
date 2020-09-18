@@ -31,13 +31,16 @@ void draw() {
   fill(0, 255, 200)
   ellipse(201, 350, 45, 45)
   //Center of Cyano's foot
-  point(200, 236)
+  point(200, 350)
 	//Cyano's hair
   line(200, 150, 130, 90)
   line(200, 150, 270, 90)
   line(200, 150, 200, 50)
   //Middle of Cyano's head
   point(200, 200)
-  point(201, 350)
+  point(201, 236)
   point(200, 164)
+  //Cyano's mouth
+  fill(0, 0, 100)
+  triangle(191, 245, 211, 245, 201, 225)
 }
